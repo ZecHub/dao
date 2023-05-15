@@ -16,7 +16,23 @@ author: John Doe
 ---
 ```
 
-3. Write your post content below the front matter. You can use Markdown or HTML to format your text.
+3. Write your post content below the front matter. You can use Markdown or HTML to format your text. Your file will look like this:
+
+```markdown
+---
+layout: post
+title: “My First Post”
+date: 2023-04-11 14:00:00 +0000
+author: John Doe
+---
+
+This is my first paragraph.
+This is my first list:
+- First item
+- Second item
+- Third item
+```
+
 4. Save your file and commit it to your repository.
 
 Consult [Jekyll docs](https://jekyllrb.com/docs/posts/) for more details on how to write a post for this blog.
